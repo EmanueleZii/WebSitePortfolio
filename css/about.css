@@ -31,49 +31,56 @@ padding: 0;
 
 /*body*/
 
-body{
-    background-color:#0054D4 ;
+body {
+    background-color:#FF9700 ;
     text-align: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-.content{
-    width: 700px;
-    height: 300px;
+.content {
+    width: 1000px;
+    height: 500px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 295px;
     text-align: center;
     background-color: #fff;
     display: flex;
-    box-shadow: 50px 80px #0041A6;
+    box-shadow: 50px 80px #CA7200;
 }
 
 .content-text{
     display: block;
     margin: auto;
     font-weight: bold;
+    font-size: small;
 }
 
 hr{
-   margin: 50px 50px 50px 50px;
+   margin: 50px 0px 50px 60px;
 }
 
 .profilo img{
     width: 200px;
     border-radius: 50%;
-    margin-top: 50px;
+    margin-top: 150px;
     display: inline;
     margin-left: 20px;
     box-shadow: 30px 10px gray;
 }
-
+.text-about{
+    display: block;
+    margin: auto;
+    
+}
 .social-img img{
     width: 20px;
     padding: 10px 10px;
 }
 .social-img{ 
     display: flex;
-    margin-left: 70px; 
+    margin-left: 320px; 
 }
 
 /* responsive */
@@ -95,12 +102,12 @@ hr{
 
     .content{
         display: block;
-        width: 400px;
-        height: 500px;
+        width: 450px;
+        height: 900px;
     }
     
     .social-img{ 
-        margin-left: 160px; 
+        margin-left: 180px; 
     }
    
 }
