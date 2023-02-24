@@ -64,6 +64,7 @@ hr{
     margin-top: 50px;
     display: inline;
     margin-left: 20px;
+    box-shadow: 30px 10px gray;
 }
 
 .social-img img{
