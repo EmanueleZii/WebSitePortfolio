@@ -17,10 +17,11 @@ padding: 0;
 
 .navbar nav ul li a{
     text-decoration: none;
-    color: white;
-    background-color:#FE9D0B;
+    color: #FE9D0B;
+    font-weight: bold;
+    font-size: large;
+   /* background-color:#0041A6;*/
     padding: 20px 20px;
-    border-radius: 35%;
 }
 
 .navbar nav ul{
@@ -87,17 +88,17 @@ hr{
 
 @media only screen and (max-width: 1200px) {
 
-
     .navbar nav ul{
         margin-left: 0px;
     }
 
     .navbar nav ul li a{
         text-decoration: none;
-        color: white;
-        background-color:#FE9D0B;
-        padding: 10px 10px;
-        border-radius: 35%;
+        color: #FE9D0B;
+        font-weight: bold;
+        font-size: large;
+   /* background-color:#0041A6;*/
+        padding: 5px 5px;
     }
 
     .content{
