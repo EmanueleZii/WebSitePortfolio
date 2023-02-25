@@ -84,10 +84,10 @@ hr{
     width: 20px;
     padding: 10px 10px;
 }
+
 .social-img{ 
-    display: flex;
+    display: block-inline;
     margin: auto;
-    margin-left: 250px;
 }
 
 /* responsive */
