@@ -26,7 +26,7 @@ padding: 0;
 
 .navbar nav ul{
     display: flex;
-    margin-left: 450px;
+    margin: auto;
     text-align: center;
 }
 
@@ -87,6 +87,10 @@ hr{
 /* responsive */
 
 @media only screen and (max-width: 1200px) {
+    body {
+        overflow-x:hidden;
+        overflow-y: visible;
+    }
 
     .navbar nav ul{
         margin-left: 0px;

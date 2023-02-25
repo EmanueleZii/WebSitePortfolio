@@ -26,7 +26,7 @@ padding: 0;
 
 .navbar nav ul{
     display: flex;
-    margin-left: 450px;
+    margin: auto;
     text-align: center;
 }
 
@@ -55,6 +55,11 @@ body{
     font-weight: bold;
 }
 
+.project-container{
+    display: flex;
+    flex-direction: column;
+}
+
 hr{
    margin: 50px 50px 50px 50px;
 }
@@ -74,12 +79,16 @@ hr{
 }
 .social-img{ 
     display: flex;
-    margin-left: 70px; 
+    margin: auto;
 }
 
 /* responsive */
 
 @media only screen and (max-width: 1200px) {
+    body {
+        overflow-x:hidden;
+        overflow-y: visible;
+    }
 
 
     .navbar nav ul{
@@ -93,13 +102,12 @@ hr{
          font-size: large;
    /* background-color:#0041A6;*/
         padding: 5px 5px;
-        border-radius: 35%;
     }
 
     .content{
         display: block;
         width: 400px;
-        height: 500px;
+        height: 600px;
     }
     
     .social-img{ 
