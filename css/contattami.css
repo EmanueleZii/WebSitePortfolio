@@ -61,6 +61,7 @@ hr{
 .profilo img{
     width: 200px;
     border-radius: 50%;
+    display: inline-block;
     margin-top: 50px;
     display: inline;
     margin-left: 20px;
@@ -73,7 +74,20 @@ hr{
 }
 .social-img{ 
     display: flex;
-    margin-left: 70px; 
+    margin-left: 50px; 
+}
+
+.email-btn {
+    text-decoration: none ;
+}
+
+.email-btn h1{
+    background-image: linear-gradient(#6B0461, #C208B0);
+    border-radius: 10%;
+    padding: 10px 10px !important;
+    display: block;
+    margin: auto;
+    color: white;
 }
 
 /* responsive */
@@ -84,7 +98,6 @@ hr{
         overflow-x:hidden;
         overflow-y: visible;
     }
-
 
     .navbar nav ul{
         margin-left: 0px;
@@ -104,6 +117,24 @@ hr{
         width: 400px;
         height: 500px;
     }
+    .profilo img{
+        width: 200px;
+        border-radius: 50%;
+        display: inline-block;
+        box-shadow: 30px 10px gray;
+    }
+    
+
+    .email-btn h1{
+        background-image: linear-gradient(#6B0461, #C208B0);
+        border-radius: 10%;
+        padding: 5px 5px !important;
+        width: 40%;
+        display: block;
+        margin: auto;
+        color: white;
+    }
+    
     
     .social-img{ 
         margin-left: 160px; 

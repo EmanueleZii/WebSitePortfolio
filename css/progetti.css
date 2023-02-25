@@ -38,10 +38,10 @@ body{
 }
 
 .content{
-    width: 700px;
-    height: 300px;
+    width: 950px;
+    height: 500px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 295px;
     text-align: center;
     background-color: #fff;
@@ -55,20 +55,27 @@ body{
     font-weight: bold;
 }
 
-.project-container{
-    display: flex;
+.project-container .box-project{
+    display:inline-flex;
     flex-direction: column;
+    margin-right: 50px;
+}
+
+.box-project img{
+    width: 200px;
 }
 
 hr{
-   margin: 50px 50px 50px 50px;
+   margin: 50px 0px 50px 30px;
 }
 
 .profilo img{
     width: 200px;
     border-radius: 50%;
-    margin-top: 50px;
-    display: inline;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    margin-right: 10px;
     margin-left: 20px;
     box-shadow: 30px 10px gray;
 }
@@ -80,6 +87,7 @@ hr{
 .social-img{ 
     display: flex;
     margin: auto;
+    margin-left: 250px;
 }
 
 /* responsive */
@@ -107,7 +115,13 @@ hr{
     .content{
         display: block;
         width: 400px;
-        height: 600px;
+        height: 1000px;
+    }
+
+    .profilo img{
+        margin-top: 50px;
+        display: block;
+        margin: auto;
     }
     
     .social-img{ 
